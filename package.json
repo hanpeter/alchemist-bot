@@ -1,0 +1,28 @@
+{
+  "name": "alchemist-bot",
+  "version": "0.0.1",
+  "description": "A discord bot for the Alchemist Code",
+  "scripts": {
+    "test": "echo 'No test specified'",
+    "start": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanpeter/alchemist-bot.git"
+  },
+  "author": "Peter Han",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanpeter/alchemist-bot/issues"
+  },
+  "homepage": "https://github.com/hanpeter/alchemist-bot#readme",
+  "engines": {
+    "node": ">=8.9.0 <9.0.0"
+  },
+  "dependencies": {
+    "bluebird": ">=3.5.0 <4.0.0",
+    "request": ">=2.83.0 <3.0.0",
+    "lodash": ">=4.17.0 <5.0.0",
+    "discord.js": ">=11.3.0 <12.0.0"
+  }
+}
