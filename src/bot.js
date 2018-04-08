@@ -19,7 +19,7 @@
         }
 
         request({
-            url: 'http://localhost:5000/job/JB_DGN/',
+            url: 'https://alchemist-api-branch.herokuapp.com/job/JB_DGN/',
             method: 'GET',
             json: true,
         }).then(function (resp) {
@@ -32,6 +32,9 @@
 
                 var embed = {
                     title: job.name,
+                    thumbnail: {
+                        url: 'https://alchemist-api-branch.herokuapp.com' + job.Icon,
+                    },
                     fields: [
                         {
                             name: 'Ability 1',
