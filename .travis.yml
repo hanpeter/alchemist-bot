@@ -1,0 +1,5 @@
+language: node_js
+branches:
+  only:
+  - master
+  - /^v\d+\.\d+\.\d+$/  # Use sem var with "v" prefix
